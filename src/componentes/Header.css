@@ -1,0 +1,49 @@
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top:0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-family: roboto;
+}
+
+nav a::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+h1 {
+    font-family: Bungee Shade;
+    color: white;
+    cursor: pointer;
+}

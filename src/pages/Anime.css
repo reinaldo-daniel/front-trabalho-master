@@ -1,0 +1,85 @@
+.container {
+    background-color: #1d2a35;
+}
+
+.anime {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 100px;
+    padding-top: 150px;
+}
+
+.animeSpecify {
+    width: 20%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.imgAnime {
+    border-radius: 15px;
+}
+
+.specifys {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.nameAnime {
+    font-size: 40px;
+    font-family: roboto;
+    width: 95%;
+    text-align: left;
+}
+
+.description {
+    text-align: justify;
+}
+
+.avaliation, .description, .animeSpecify {
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.nameAnime {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.personagens {
+    display: flex;
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre {
+    background-color: gray;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 17px;
+}
